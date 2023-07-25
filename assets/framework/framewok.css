@@ -5,7 +5,10 @@
 }
 
 /* #region col*/
-
+.hr_side{
+    background-color: var(--bts-txt-white);
+    height: 5px;
+}
 
 /* #endregion col*/
 
@@ -13,7 +16,21 @@
 
 :root {
     --bts-primary: #1abc9c;
-    --bts-seconday: #2c3e50;
+    --bts-secondary: #2c3e50;
+    --bts-txt-white: #ffffff;
+    --bts-secondary-darklight: #3a546d;
+}
+.prim {
+    background-color: var(--bts-primary);
+}
+.secdn {
+    background-color: var(--bts-secondary);
+}
+.txt_w {
+    color: var(--bts-txt-white);
+}
+.txt_sec {
+    color: var(--bts-secondary-darklight);
 }
 /* #endregion color*/
 
