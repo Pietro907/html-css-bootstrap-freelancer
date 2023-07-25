@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region col*/
+
+
+/* #endregion col*/
+
+/* #region color */
+
+:root {
+    --bts-primary: #1abc9c;
+    --bts-seconday: #2c3e50;
+}
+/* #endregion color*/
+
+/* #region spacing*/
+
+
+/* #endregion spacing*/
+
+/* #region utilities*/
+
+
+
+/* #endregion utilities*/
+
+@media screen and (max-width: 1200px) {
+    
+}
+    
