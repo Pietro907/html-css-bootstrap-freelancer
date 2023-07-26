@@ -20,51 +20,68 @@
 <body>
 
     <header>
-        <div class="container secdn ">
+        <div class="container-fluid secdn ">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid secdn">
-                  <a class="navbar-brand ms-lg-5 text-light" href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light" href="#">ABOUT</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light" href="#">CONTACT</a>
-                    </ul>
-                  </div>
+                    <a class="navbar-brand ms-lg-5 text-light" href="#"><strong>START BOOTSTRAP</strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">CONTACT</a>
+                        </ul>
+                    </div>
                 </div>
-              </nav>
+            </nav>
         </div>
     </header>
 
     <main>
 
         <section>
-            <div class="container prim">
+            <div class="container-fluid prim">
                 <div class="jumbo_avatar">
-                    <img src="./assets/img/avatar.svg" alt="">
-                </div>
-                <h1>START BOOTSTRAP</h1>
-                <div class="container logo_star">
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-3 hr_side"></div>
-                        <div class="col-1 d-flex justify-content-center"><i class="fa-solid fa-star text-light"></i></div>
-                        <div class="col-3 hr_side"></div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-10 col-md-6 col-xl-4 col-xl-5">
+                            <img class="pt-4 m-5" src="./assets/img/avatar.svg" alt="">
+                        </div>
                     </div>
-
-
                 </div>
+                <h1 class="d-flex justify-content-center text-light"><strong>START BOOTSTRAP</strong></h1>
+                
+                <div class="container logo_star fs_30 my-3">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-3 col-md-2 hr_side"></div>
+                        <div class="col-1 col-md-2 d-flex justify-content-center"><i class="fa-solid fa-star text-light"></i>
+                        </div>
+                        <div class="col-3 col-md-2 hr_side"></div>
+                    </div>
+                </div>
+                
                 <div class="author">
-                    <a href="#">Graphic Artist</a>
-                    <a href="#">Web Designer</a>
-                    <a href="#">Illustrator</a>
+                    <div class="col-12 d-flex justify-content-center">
+                        <ul class="d-flex justify-content-center ps-0 pb-5 text-light">
+                            <li class="list-unstyled pe-4">
+                                <a class="text-decoration-none fs_30 text-light" href="#"><h3>Graphic Artist</h3></a>
+                            </li>
+                            <li class="pe-4">
+                                <a class="text-decoration-none fs_30 text-light" href="#"><h3>Web Designer</h3></a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none fs_30 text-light" href="#"><h3>Illustrator</h3></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -72,45 +89,48 @@
 
         <section>
 
-            <div class="container portafoglio">
-                <h2>PORTFOLIO</h2>
-                <div class="container logo_star">
-                    <div class="row">
-                        <div class="col-4 hr_side secdn"></div>
-                        <div class="col-4 txt_sec"><i class="fa-solid fa-star"></i></div>
-                        <div class="col-4 hr_side secdn"></div>
+            <div class="container mt-5">
+                <h2 class="d-flex justify-content-center txt_sec fs_30"><strong>PORTFOLIO</strong></h2>
+
+                <div class="container logo_star fs_30 my-3">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-3 col-md-2 hr_side secdn"></div>
+                        <div class="col-1 col-md-2 d-flex justify-content-center"><i class="fa-solid fa-star txt_sec"></i>
+                        </div>
+                        <div class="col-3 col-md-2 hr_side secdn"></div>
                     </div>
                 </div>
+
             </div>
 
-            <div class="container">
+            <div class="container container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/cabin.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/cake.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/circus.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/game.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/safe.png" alt="">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-3 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="./assets/img/submarine.png" alt="">
                         </div>
@@ -122,37 +142,44 @@
         <!-- section portfolio -->
 
         <section>
-            <div class="container">
-                <h2>ABOUT</h2>
-                <div class="row">
-                    <div class="col hr_side"></div>
-                    <div class="col"><i class="fa-solid fa-star txt_w"></i></div>
-                    <div class="col hr_side"></div>
+            <div class="container prim mt-5">
+                <h2 class="d-flex justify-content-center pt-5 txt_w"><strong>ABOUT</strong></h2>
+                <div class="container logo_star fs_30 my-3">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-3 col-md-2 hr_side"></div>
+                        <div class="col-1 col-md-2 d-flex justify-content-center"><i class="fa-solid fa-star txt_w"></i>
+                        </div>
+                        <div class="col-3 col-md-2 hr_side"></div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card"></div>
+                <div class="row d-flex justify-content-center px-5">
+                    <div class="col-12 py-2 px-5 txt_w">
+                        
                         <p>
                             Freelancer is a free bootstrap theme created by Start Bootstrap. The download included the
-                            complete source files including HTML,CSS, and JavaScript as well as optional LESS stylesheets
+                            complete source files including HTML,CSS, and JavaScript as well as optional LESS
+                            stylesheets
                             for easy customization.
                         </p>
                     </div>
-            
-                    <div class="col-6">
-                    <div class="card">
-                        <p>
-                            Whether you're a student looking to showcase ypur work, a professional looking to attract
-                            clients, or a graphic artist looking to share your projects, this template is the perfect
-                            starting point!
-                        </p>
+
+                    <div class="col-12 py-2 px-5 txt_w">
+                       
+                            <p>
+                                Whether you're a student looking to showcase ypur work, a professional looking to
+                                attract
+                                clients, or a graphic artist looking to share your projects, this template is the
+                                perfect
+                                starting point!
+                            </p>
+
+                    </div>
+                    
+                    <div class="col-4">
+                        <a class="btn border-light d-flex justify-content-center mb-4 txt_w" href="#" role="button"><i class="fa-solid fa-download pe-1 txt_w"></i>Download</a>
                     </div>
 
-                    <a class="btn btn-primary" href="#" role="button"><i class="fa-solid fa-download"></i>Download</a>
-
                 </div>
-                
-            </div>
 
         </section>
         <!-- seciotn about -->
@@ -209,7 +236,8 @@
                 <div class="col-4">
                     <div class="card">
                         <h3>ABOUT FREELANCER</h3>
-                        <p>Frelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.
+                        <p>Frelance is a free to use, open source Bootstrap theme created by <span>Start
+                                Bootstrap</span>.
                         </p>
                     </div>
                 </div>
@@ -228,9 +256,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
 
 </body>
 
