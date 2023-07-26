@@ -32,6 +32,9 @@
 .secdn {
     background-color: var(--bts-secondary);
 }
+.foot {
+    background-color: var(--bts-secondary-darklight);
+}
 .txt_w {
     color: var(--bts-txt-white);
 }
