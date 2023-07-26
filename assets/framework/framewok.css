@@ -38,6 +38,9 @@
 .txt_sec {
     color: var(--bts-secondary-darklight);
 }
+.txt_prim {
+    color: var(--bts-primary);
+}
 /* #endregion color*/
 
 /* #region spacing*/
