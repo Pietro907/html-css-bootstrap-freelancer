@@ -19,6 +19,12 @@
     --bts-secondary: #2c3e50;
     --bts-txt-white: #ffffff;
     --bts-secondary-darklight: #3a546d;
+    --bts-img-1: #ba4b63;
+    --bts-img-2: #1ea4b6;
+    --bts-img-3: #140f0f;
+    --bts-img-4: #1c83c1;
+    --bts-img-5: #1c83c1;
+    --bts-img-6: #ccb2a3;
 }
 .prim {
     background-color: var(--bts-primary);
